@@ -1,0 +1,89 @@
+/*======================================================*/
+/********* MEDIA QUERIES FOR RESPONSIVENESS ************/
+/*======================================================*/
+
+/* samll phones from 0 to 480px */
+@media only screen and (max-width: 480px){
+    .logo {
+        height: 70px;
+    }
+    .btn-full:link, .btn-full:visited{
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .btn-ghost:hover, .btn-ghost:active{
+                font-size: 15px;
+    }
+}
+
+/* small phones to small tablets 480px to 767px */
+@media only screen and (max-width:767px){
+    body{ font-size: 14px; }
+    section{padding: 30px 0;}
+    .row , .hero-text-box {padding: o 4%;}
+    .col{width: 100%; }
+    h1{    
+    word-spacing: 2px;
+    font-size: 160%;
+    }
+    .main-nav li{
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .section-meals {
+        margin-top: 10px;}
+    
+    .app-screen {
+        width: 30%;
+    }
+    .works-step {
+        margin-bottom: 25px;
+    }
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        font-size: 130%;
+    }
+}
+
+/* Small tablests to big screen: from 768 px to 1023px  */
+@media only screen and (max-width: 1023px){
+    body {font-size: 18px;}
+   section{padding: 60px 0;}
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+               }
+    .steps-box { margin-top: 10px; }
+    .work-steps {margin-bottom: 40px;}
+    .steps-box:last-od-type{margin-bottom:60px;}
+    .steps-box:last-child{margin-top: 10px;}
+/*    .app-screen{width:50%;}*/
+    .icon-small{width: 17px;
+          margin-right: 5px;
+    }
+    .city-feature{ font-size: 90%  }
+    
+    .plan-box{ 
+     width: 100%;
+    margin-left: 0%;}
+    
+    .plan-price{
+        font-size: 250%;
+    }
+    
+    .contact-form{
+        width: 80%
+    }
+} 
+   
+
+/* big tablets to big desktop screen: from1140px row */
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+        margin-top: 60px;
+               }
+    .row{ padding: 0 2%;}
+}
